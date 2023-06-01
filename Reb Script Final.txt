@@ -1,0 +1,37 @@
+--READ ME!!
+
+--Put this script under autoexec folder, the autoexec folder is inside your exploit folder
+--open your exploit, and try to enable Auto Launch or Auto Attach
+
+
+--below this is the main script that should be untouched
+if game.PlaceId == 3311165597 then
+wait(11)
+while true do
+    local player = game:GetService("Players").LocalPlayer
+    local button = player:FindFirstChild("PlayerGui"):WaitForChild("Start").Play
+
+    for i,v in pairs(getconnections(button.MouseButton1Click)) do
+        v:Fire()
+    end
+
+    local package = game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("Start")
+    package:InvokeServer()
+
+    if package:IsDescendantOf(game) then
+        break  -- Exit the loop if the condition is met
+    end
+
+    wait(1)  -- Wait for 1 second before retrying
+end
+
+
+wait(7)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
+end
+
+
+if game.PlaceId == 5151400895 then
+wait(8)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
+end
