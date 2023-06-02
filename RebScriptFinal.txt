@@ -26,7 +26,7 @@ while true do
 end
 
 
-wait(7)
+wait(4)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
 end
 
