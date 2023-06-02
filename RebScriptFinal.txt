@@ -6,7 +6,7 @@
 
 --below this is the main script that should be untouched
 if game.PlaceId == 3311165597 then
-wait(2)
+wait(5)
 while true do
     local player = game:GetService("Players").LocalPlayer
     local button = player:FindFirstChild("PlayerGui"):WaitForChild("Start").Play
@@ -22,7 +22,7 @@ while true do
         break  -- Exit the loop if the condition is met
     end
 
-    wait(1)  -- Wait for 1 second before retrying
+    wait()  -- Wait for 1 second before retrying
 end
 
 
@@ -32,6 +32,6 @@ end
 
 
 if game.PlaceId == 5151400895 then
-wait(5)
+wait(3)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
 end
