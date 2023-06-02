@@ -26,12 +26,12 @@ while true do
 end
 
 
-wait(4)
+wait(7)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
 end
 
 
 if game.PlaceId == 5151400895 then
-wait(8)
+wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
 end
