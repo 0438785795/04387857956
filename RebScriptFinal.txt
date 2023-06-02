@@ -6,7 +6,7 @@
 
 --below this is the main script that should be untouched
 if game.PlaceId == 3311165597 then
-wait(11)
+wait(5)
 while true do
     local player = game:GetService("Players").LocalPlayer
     local button = player:FindFirstChild("PlayerGui"):WaitForChild("Start").Play
