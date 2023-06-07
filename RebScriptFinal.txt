@@ -32,6 +32,6 @@ end
 
 
 if game.PlaceId == 5151400895 then
-wait(4.5)
+wait(4)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0438785795/0438785795/main/rebautofinal.lua"))()
 end
